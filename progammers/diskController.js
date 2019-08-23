@@ -56,7 +56,6 @@ function solution(jobs) {
             if (i < jobs.length - 1) continue;
 
         }
-
         answer += jobs[0][1];
         total += answer - jobs[0][0]
         jobs.shift();
